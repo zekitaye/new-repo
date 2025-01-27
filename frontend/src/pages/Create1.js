@@ -32,7 +32,7 @@ async function handlesubmit(event){
   Navigate('/');
 
      }
-      
+      console.log(data.firstname);
    
      axios.post("https://test-project-k7jg.onrender.com/api/users",data).then(() => {
       Navigate('/');

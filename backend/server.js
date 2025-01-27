@@ -11,7 +11,7 @@ const app=express();
 dotenv.config();
 app.use(express.json());
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://new-repo-h35k.onrender.com",
 }));
 
 app.use('/api/users',useroute);
