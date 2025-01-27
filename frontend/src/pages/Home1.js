@@ -7,7 +7,7 @@ import {useState,useEffect} from 'react'
 
   useEffect(() => {
 
-    axios.get('http://localhost:7000/api/users').then((response) => {
+    axios.get('https://test-project-k7jg.onrender.com/api/users').then((response) => {
       setusers(response.data);
     }).catch((error) =>{
       console.log(error);

@@ -34,7 +34,7 @@ async function handlesubmit(event){
      }
       
    
-     axios.post("http://localhost:7000/api/users",data).then(() => {
+     axios.post("https://test-project-k7jg.onrender.com/api/users",data).then(() => {
       Navigate('/');
 
 
