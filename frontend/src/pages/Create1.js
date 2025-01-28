@@ -32,7 +32,7 @@ async function handlesubmit(event){
   Navigate('/');
 
      }
-      console.log(data.firstname);
+      console.log(data);
    
      axios.post("https://new-repo-h35k.onrender.com/api/users",data).then(() => {
       Navigate('/');
