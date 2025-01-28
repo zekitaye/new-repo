@@ -11,7 +11,7 @@ const app=express();
 dotenv.config();
 app.use(express.json());
 app.use(cors({
-    origin:"https://new-repo-h35k.onrender.com",
+    origin:"https://new-repo-static.onrender.com",
 }));
 
 app.use('/api/users',useroute);
