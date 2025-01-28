@@ -34,7 +34,7 @@ async function handlesubmit(event){
      }
       console.log(data.firstname);
    
-     axios.post("https://test-project-k7jg.onrender.com/api/users",data).then(() => {
+     axios.post("https://new-repo-h35k.onrender.com/api/users",data).then(() => {
       Navigate('/');
 
 

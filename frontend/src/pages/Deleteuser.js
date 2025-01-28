@@ -7,7 +7,7 @@ export default function Deleteuser(){
 
   const Navigate=useNavigate();
   const handeldelete = () =>  {
-    axios.delete(`https://test-project-k7jg.onrender.com/api/users/${id}`).then(() =>{
+    axios.delete(`https://new-repo-h35k.onrender.com/api/users/${id}`).then(() =>{
       alert("user deleted");
       Navigate('/');
     })
