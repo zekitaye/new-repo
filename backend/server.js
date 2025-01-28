@@ -4,17 +4,14 @@ import express from 'express';
 
 import mongoose from 'mongoose';
 import useroute from './routes/users.js';
-import cors from 'cors'
+import cors from 'cors';
 
 const app=express();
 
 dotenv.config();
 app.use(express.json());
-app.use(cors({
-    origin:"https://new-repo-static.onrender.com",
-    credentials:"true"
-})
-)
+app.use(cors())
+
 
 app.use('/api/users',useroute);
 
