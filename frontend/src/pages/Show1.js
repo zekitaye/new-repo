@@ -2,7 +2,7 @@
 import axios from "axios"
 import { useState,useEffect } from "react"
 import { useParams } from "react-router-dom"
-export default function Show(){
+export default function Show1(){
   const[user1,setuser]=useState({})
   const {id} =useParams();
 

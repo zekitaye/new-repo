@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import { useState,useEffect } from "react"
 import { useParams } from "react-router-dom"
 
-export default function Edit(){
+export default function Edit1(){
  
   const[firstname,setFirstname]=useState('');
   const[email,setEmail]=useState('');

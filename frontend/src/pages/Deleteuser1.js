@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import axios from "axios"
 import { useParams } from "react-router-dom"
-export default function Deleteuser(){
+export default function Deleteuser1(){
 
   const {id} =useParams();
 
