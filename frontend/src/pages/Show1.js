@@ -8,7 +8,7 @@ export default function Show1(){
 
 
   useEffect(() => {
-    axios.get(`https://new-repo-h35k.onrender.com/api/users/${id}`).then((response) =>
+    axios.get(`http://localhost:7000/api/users/${id}`).then((response) =>
     {
       setuser(response.data);
     

@@ -18,7 +18,7 @@ export default function Edit1(){
 
 
   useEffect(() => {
-    axios.get(`https://new-repo-h35k.onrender.com/api/users/${id}`).then((response) =>
+    axios.get(`http://localhost:7000/api/users/${id}`).then((response) =>
     {
      
       setFirstname(response.data.firstname);
@@ -62,7 +62,7 @@ async function handlesubmitupdate(event){
      }
       
    
-     axios.put(`https://new-repo-h35k.onrender.com/api/users/${id}`,data).then(() => {
+     axios.put(`http://localhost:7000/api/users/${id}`,data).then(() => {
       Navigate('/');
 
 
